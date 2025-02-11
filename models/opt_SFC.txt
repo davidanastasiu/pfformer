@@ -1,0 +1,35 @@
+batchsize|48
+beta|0.9
+epochs|40
+gpu_id|2
+hidden_dim|300
+input_dim|1
+input_len|1440
+is_stream|1
+lamda|2.0
+layer|1
+learning_rate|0.001
+lradj|type4
+lstm_dim|256
+mode|train
+model|SFC400
+name|SFC400
+os_s|2
+os_v|16
+outf|./output
+output_dim|1
+output_len|288
+oversampling|15
+pt_file|
+r_shift|60
+rain_sensor|SFC_R_fixed
+save|1
+start_point|1988-01-01 14:30:00
+stream_sensor|SFC_S_fixed
+test_end|2022-05-31 23:30:00
+test_start|2021-09-01 00:30:00
+train_point|2021-08-31 23:30:00
+train_seed|1010
+train_volume|15000
+val_seed|2007
+val_size|1000

@@ -8,7 +8,7 @@ We present `PFformer`,  A Position-Free Transformer Variant for Extreme-Adaptive
   title={PFformer: A Position-Free Transformer Variant for Extreme-Adaptive Multivariate Time Series Forecasting},
   author={Li, Yanhong and Anastasiu, David C},
   booktitle={Proceedings of the PAKDD Workshops, Lecture Notes in Computer Science (LNCS)},
-  publisher = {Springer},
+  publisher={Springer},
   year={2025},
   address={Australia},
   series={Lecture Notes in Computer Science},
@@ -28,7 +28,7 @@ python -m pip install -r requirements.txt
 
 ## Files organizations
 
-Download the datasets from [here](https://clp.engr.scu.edu/static/datasets/Pfformer_datasets.zip) and upzip the files in the data_provider directory. In the ./data_provider/datasets directory, there should now be 4 stream sensor (file names end with _S_fixed.csv) and 4 rain sensor (file names end with _R_fixed.csv) datasets.
+Download the datasets from [here](https://clp.engr.scu.edu/static/datasets/efseed_datasets.zip) and upzip the files in the data_provider directory. In the ./data_provider/datasets directory, there should now be 4 stream sensor (file names end with _S_fixed.csv) and 4 rain sensor (file names end with _R_fixed.csv) datasets.
 
 
 ## Parameters setting

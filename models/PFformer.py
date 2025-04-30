@@ -419,7 +419,7 @@ class PFformer:
                 
                 l_w = max(-1 * np.exp(epoch/45) + 1 + self.lamda, self.beta)
             
-                loss = self.criterion(out1, y_train)
+                loss = self.criterion(out1, y_train) + l_w*self.criterion(out2[:,:self.iterval],y_train[:,:self.iterval])
                    
                 loss.backward()
                 self.encoder_optimizer.step()
